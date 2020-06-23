@@ -7,7 +7,7 @@ const Index = ({ repos, user }) => {
 
         <div className='container mx-auto'>
 
-            <div className='flex sm:flex-col-reverse md:flex-row-reverse flex-wrap'>
+            <div className='flex flex-col-reverse md:flex-row-reverse flex-wrap'>
                 <div className="w-full md:w-3/4 p-4 text-center text-blue-700">
                     <div>
                         <h2 className='font-bold text-4xl py-6'>Tecnologia</h2>
