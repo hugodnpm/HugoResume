@@ -59,7 +59,7 @@ const Index = ({ repos, user }) => {
                     </div>
                 </div>
                 <div className="w-full md:w-1/4 bg-white p-4 text-center text-blue-700">
-                    <div><img className='object-center sm:object-center md:object-center lg:object-center xl:object-center inline-block ' src='/images/hugo03.png' /></div>
+                    <div><img className='object-center sm:object-center md:object-center lg:object-center xl:object-center inline-block ' src='/images/hugo05.png' /></div>
                     <h1 className='text-3xl py-4 border-b-2 bg-opacity-50'>Hugo Carvalho</h1>
                     <p className='text-2xl py-4 border-b-2'>Full Stack Developer</p>
                     <p className='text-2xl py-4 border-b-2'>hugosc@gmail.com</p>
