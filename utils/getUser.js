@@ -1,5 +1,5 @@
 const getUser = async (username) => {
-    const resUser = await fetch('https://api.github.com/users/hugodnpm'+username)
+    const resUser = await fetch('https://api.github.com/users/'+username)
     const user = await resUser.json()
 
     const resRepos = await fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
@@ -10,7 +10,7 @@ const getUser = async (username) => {
     const dontShowFilter = repo => dontShowRepos.indexOf(repo.full_name) === -1
     const extractData = repo => ({
         id: repo.id,
-        full_name: repo.full_name,
+        full_name: repo.name,
         language: repo.language,
         stargazer_count: repo.stargazers_count
     })
