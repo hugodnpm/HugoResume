@@ -1,5 +1,5 @@
-import React, { useReducer } from 'react'
-
+import React from 'react'
+/*
 
 const Index = ({ repos, user }) => {
     return (
@@ -32,3 +32,4 @@ export async function getServerSideProps(context) {
     }
 }
 export default Index
+*/
