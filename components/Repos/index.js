@@ -19,7 +19,7 @@ const Repos = ({ user, repos }) => {
             >
               <h3 className="font-bold">
                 <a
-                  href={"https://github.com/hugodnpm" + repo.full_name}
+                  href={"https://github.com/hugodnpm/" + repo.full_name}
                   target="_blank"
                 >
                   {repo.full_name}
